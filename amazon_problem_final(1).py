@@ -17,7 +17,7 @@ import numpy as np
 # Read in the data
 
 # Try reading only the first 100 rows to diagnose if the file is truncated or corrupted
-df = pd.read_csv('Amazon_Unlocked_Mobile.csv', nrows=300)
+df = pd.read_excel('Amazon_Unlocked_Mobile.xls', nrows=300)
 
 # Sample the data to speed up computation
 # Comment out this line to match with lecture
